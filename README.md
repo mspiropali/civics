@@ -1,1 +1,1 @@
-# civics-frontend
+# React + TypeScript + Vite
