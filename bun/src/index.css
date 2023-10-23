@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .trapezoid-container {
+        display: flex;
+        border: 1px dotted red;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+        justify-content: space-between;
+        background: #000;
+      }
+
+      .trapezoid {
+        background: #fff;
+        width: 20px;
+        display: flex;
+        justify-content: center;
+        clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 10% 100%);
+      }
+}
+
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+
+.leaflet-control-container { position: absolute; right: calc(100vw - 320px); bottom: 90px } 
+
+/* Scrollbar Styling*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #677279;
+}
