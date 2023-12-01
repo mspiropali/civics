@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "vehicle": "firetruck",
+      "eta": 10,
+      "coordinates": {
+        "latitude": 37.9753,
+        "longitude": 23.7348
+      }
+    },
+    {
+      "id": 2,
+      "vehicle": "ambulance",
+      "eta": 8,
+      "coordinates": {
+        "latitude": 37.9785,
+        "longitude": 23.7466
+      }
+    },
+    {
+      "id": 3,
+      "vehicle": "police",
+      "eta": 12,
+      "coordinates": {
+        "latitude": 38.071,
+        "longitude": 23.8254
+      }
+    },
+    {
+      "id": 4,
+      "vehicle": "firetruck",
+      "eta": 15,
+      "coordinates": {
+        "latitude": 37.8699,
+        "longitude": 23.7523
+      }
+    },
+    {
+      "id": 5,
+      "vehicle": "ambulance",
+      "eta": 7,
+      "coordinates": {
+        "latitude": 38.0142,
+        "longitude": 23.6956
+      }
+    }
+  ]
+  

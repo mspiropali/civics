@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Residential Cluster A",
+    "location": "Syntagma Square",
+    "number": 150,
+    "dts_meters": 500,
+    "coordinates": {
+      "latitude": 37.9753,
+      "longitude": 23.7348
+    }
+  },
+  {
+    "id": 2,
+    "name": "Residential Cluster B",
+    "location": "Evangelismos Hospital",
+    "number": 100,
+    "dts_meters": 700,
+    "coordinates": {
+      "latitude": 37.9785,
+      "longitude": 23.7466
+    }
+  },
+  {
+    "id": 3,
+    "name": "Residential Cluster C",
+    "location": "Kifisia",
+    "number": 200,
+    "dts_meters": 1000,
+    "coordinates": {
+      "latitude": 38.071,
+      "longitude": 23.8254
+    }
+  },
+  {
+    "id": 4,
+    "name": "Residential Cluster D",
+    "location": "Glyfada",
+    "number": 120,
+    "dts_meters": 800,
+    "coordinates": {
+      "latitude": 37.8699,
+      "longitude": 23.7523
+    }
+  },
+  {
+    "id": 5,
+    "name": "Residential Cluster E",
+    "location": "Peristeri",
+    "number": 180,
+    "dts_meters": 600,
+    "coordinates": {
+      "latitude": 38.0142,
+      "longitude": 23.6956
+    }
+  },
+  {
+    "id": 6,
+    "name": "Residential Cluster F",
+    "location": "Marousi",
+    "number": 90,
+    "dts_meters": 1200,
+    "coordinates": {
+      "latitude": 38.0509,
+      "longitude": 23.8058
+    }
+  }
+]

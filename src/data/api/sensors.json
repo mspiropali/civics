@@ -1,14 +1,492 @@
 [
-    {
-        "name":"sensor1",
-        "location":""
+  {
+    "id": 1,
+    "name": "Sensor X",
+    "location": "Syntagma Square",
+    "coordinates": {
+      "latitude": 37.9753,
+      "longitude": 23.7348
     },
-    {
-        "name":"sensor2",
-        "location":""
+    "status": "normal",
+    "temperature": 21.5,
+    "humidity": 48,
+    "smoke": 0.02,
+    "UV": 6
+  },
+  {
+    "id": 2,
+    "name": "Sensor Y",
+    "location": "Evangelismos Hospital",
+    "coordinates": {
+      "latitude": 37.9785,
+      "longitude": 23.7466
     },
-    {
-        "name":"sensor3",
-        "location":""
-    }
+    "status": "low",
+    "temperature": 19,
+    "humidity": 32,
+    "smoke": 0.01,
+    "UV": 4
+  },
+  {
+    "id": 3,
+    "name": "Sensor Z",
+    "location": "Kifisia",
+    "coordinates": {
+      "latitude": 38.071,
+      "longitude": 23.8254
+    },
+    "status": "normal",
+    "temperature": 23.8,
+    "humidity": 40,
+    "smoke": 0.03,
+    "UV": 5
+  },
+  {
+    "id": 4,
+    "name": "Sensor W",
+    "location": "Glyfada",
+    "coordinates": {
+      "latitude": 37.8699,
+      "longitude": 23.7523
+    },
+    "status": "normal",
+    "temperature": 22.5,
+    "humidity": 38,
+    "smoke": 0.02,
+    "UV": 3
+  },
+  {
+    "id": 5,
+    "name": "Sensor V",
+    "location": "Peristeri",
+    "coordinates": {
+      "latitude": 38.0142,
+      "longitude": 23.6956
+    },
+    "status": "low",
+    "temperature": 20.3,
+    "humidity": 34,
+    "smoke": 0.04,
+    "UV": 7
+  },
+  {
+    "id": 6,
+    "name": "Sensor M",
+    "location": "Marousi",
+    "coordinates": {
+      "latitude": 38.0509,
+      "longitude": 23.8058
+    },
+    "status": "normal",
+    "temperature": 24.2,
+    "humidity": 52,
+    "smoke": 0.03,
+    "UV": 8
+  },
+  {
+    "id": 7,
+    "name": "Sensor N",
+    "location": "Omonia Square",
+    "coordinates": {
+      "latitude": 37.9838,
+      "longitude": 23.7296
+    },
+    "status": "low",
+    "temperature": 19.8,
+    "humidity": 36,
+    "smoke": 0.02,
+    "UV": 5
+  },
+  {
+    "id": 8,
+    "name": "Sensor O",
+    "location": "Nea Smyrni",
+    "coordinates": {
+      "latitude": 37.9409,
+      "longitude": 23.7144
+    },
+    "status": "normal",
+    "temperature": 22.1,
+    "humidity": 42,
+    "smoke": 0.01,
+    "UV": 6
+  },
+  {
+    "id": 9,
+    "name": "Sensor P",
+    "location": "Exarchia",
+    "coordinates": {
+      "latitude": 37.9852,
+      "longitude": 23.7336
+    },
+    "status": "normal",
+    "temperature": 23.5,
+    "humidity": 44,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 10,
+    "name": "Sensor Q",
+    "location": "Vouliagmeni",
+    "coordinates": {
+      "latitude": 37.8296,
+      "longitude": 23.7768
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 30,
+    "smoke": 0.03,
+    "UV": 4
+  },
+  {
+    "id": 11,
+    "name": "Sensor R",
+    "location": "Piraeus Port",
+    "coordinates": {
+      "latitude": 37.9475,
+      "longitude": 23.6471
+    },
+    "status": "normal",
+    "temperature": 21.7,
+    "humidity": 38,
+    "smoke": 0.02,
+    "UV": 6
+  },
+  {
+    "id": 12,
+    "name": "Sensor S",
+    "location": "Aspropyrgos Industrial Zone",
+    "coordinates": {
+      "latitude": 38.0687,
+      "longitude": 23.5452
+    },
+    "status": "low",
+    "temperature": 19.2,
+    "humidity": 32,
+    "smoke": 0.01,
+    "UV": 4
+  },
+  {
+    "id": 13,
+    "name": "Sensor T",
+    "location": "Kallithea",
+    "coordinates": {
+      "latitude": 37.9496,
+      "longitude": 23.6972
+    },
+    "status": "normal",
+    "temperature": 22.3,
+    "humidity": 40,
+    "smoke": 0.03,
+    "UV": 5
+  },
+  {
+    "id": 14,
+    "name": "Sensor U",
+    "location": "Agia Paraskevi",
+    "coordinates": {
+      "latitude": 38.0101,
+      "longitude": 23.8222
+    },
+    "status": "normal",
+    "temperature": 23.8,
+    "humidity": 45,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 15,
+    "name": "Sensor V",
+    "location": "Zografou",
+    "coordinates": {
+      "latitude": 37.9734,
+      "longitude": 23.7725
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 36,
+    "smoke": 0.03,
+    "UV": 4
+  },
+  {
+    "id": 16,
+    "name": "Sensor W",
+    "location": "Kolonaki",
+    "coordinates": {
+      "latitude": 37.9764,
+      "longitude": 23.7432
+    },
+    "status": "normal",
+    "temperature": 24.5,
+    "humidity": 42,
+    "smoke": 0.02,
+    "UV": 6
+  },
+  {
+    "id": 17,
+    "name": "Sensor X",
+    "location": "Kifissia",
+    "coordinates": {
+      "latitude": 38.0722,
+      "longitude": 23.8183
+    },
+    "status": "low",
+    "temperature": 19.8,
+    "humidity": 35,
+    "smoke": 0.01,
+    "UV": 4
+  },
+  {
+    "id": 18,
+    "name": "Sensor Y",
+    "location": "Vari",
+    "coordinates": {
+      "latitude": 37.8324,
+      "longitude": 23.7788
+    },
+    "status": "normal",
+    "temperature": 23.2,
+    "humidity": 39,
+    "smoke": 0.03,
+    "UV": 5
+  },
+  {
+    "id": 19,
+    "name": "Sensor Z",
+    "location": "Palaio Faliro",
+    "coordinates": {
+      "latitude": 37.9296,
+      "longitude": 23.7143
+    },
+    "status": "normal",
+    "temperature": 22.8,
+    "humidity": 44,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 20,
+    "name": "Sensor A1",
+    "location": "Ilion",
+    "coordinates": {
+      "latitude": 38.0186,
+      "longitude": 23.6995
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 32,
+    "smoke": 0.03,
+    "UV": 4
+  },
+  {
+    "id": 21,
+    "name": "Sensor B1",
+    "location": "Piraeus Port",
+    "coordinates": {
+      "latitude": 37.9475,
+      "longitude": 23.6471
+    },
+    "status": "normal",
+    "temperature": 23.5,
+    "humidity": 42,
+    "smoke": 0.02,
+    "UV": 6
+  },
+  {
+    "id": 22,
+    "name": "Sensor C1",
+    "location": "Aspropyrgos Industrial Zone",
+    "coordinates": {
+      "latitude": 38.0687,
+      "longitude": 23.5452
+    },
+    "status": "low",
+    "temperature": 19.2,
+    "humidity": 35,
+    "smoke": 0.01,
+    "UV": 4
+  },
+  {
+    "id": 23,
+    "name": "Sensor D1",
+    "location": "Kallithea",
+    "coordinates": {
+      "latitude": 37.9496,
+      "longitude": 23.6972
+    },
+    "status": "normal",
+    "temperature": 22.3,
+    "humidity": 39,
+    "smoke": 0.03,
+    "UV": 5
+  },
+  {
+    "id": 24,
+    "name": "Sensor E1",
+    "location": "Agia Paraskevi",
+    "coordinates": {
+      "latitude": 38.0101,
+      "longitude": 23.8222
+    },
+    "status": "normal",
+    "temperature": 23.8,
+    "humidity": 45,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 25,
+    "name": "Sensor F1",
+    "location": "Zografou",
+    "coordinates": {
+      "latitude": 37.9734,
+      "longitude": 23.7725
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 36,
+    "smoke": 0.03,
+    "UV": 4
+  },
+  {
+    "id": 26,
+    "name": "Sensor G1",
+    "location": "Kolonos",
+    "coordinates": {
+      "latitude": 37.9864,
+      "longitude": 23.7147
+    },
+    "status": "normal",
+    "temperature": 24.5,
+    "humidity": 42,
+    "smoke": 0.02,
+    "UV": 6
+  },
+  {
+    "id": 27,
+    "name": "Sensor H1",
+    "location": "Piraeus Port",
+    "coordinates": {
+      "latitude": 37.9475,
+      "longitude": 23.6471
+    },
+    "status": "low",
+    "temperature": 19.8,
+    "humidity": 35,
+    "smoke": 0.01,
+    "UV": 4
+  },
+  {
+    "id": 28,
+    "name": "Sensor I1",
+    "location": "Nea Smyrni",
+    "coordinates": {
+      "latitude": 37.9409,
+      "longitude": 23.7144
+    },
+    "status": "normal",
+    "temperature": 22.1,
+    "humidity": 42,
+    "smoke": 0.03,
+    "UV": 5
+  },
+  {
+    "id": 29,
+    "name": "Sensor J1",
+    "location": "Exarchia",
+    "coordinates": {
+      "latitude": 37.9852,
+      "longitude": 23.7336
+    },
+    "status": "normal",
+    "temperature": 23.5,
+    "humidity": 44,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 30,
+    "name": "Sensor K1",
+    "location": "Vouliagmeni",
+    "coordinates": {
+      "latitude": 37.8296,
+      "longitude": 23.7768
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 30,
+    "smoke": 0.03,
+    "UV": 4
+  },
+  {
+    "id": 31,
+    "name": "Sensor L1",
+    "location": "Marousi",
+    "coordinates": {
+      "latitude": 38.0509,
+      "longitude": 23.8058
+    },
+    "status": "normal",
+    "temperature": 24.2,
+    "humidity": 52,
+    "smoke": 0.03,
+    "UV": 8
+  },
+  {
+    "id": 32,
+    "name": "Sensor M1",
+    "location": "Omonia Square",
+    "coordinates": {
+      "latitude": 37.9838,
+      "longitude": 23.7296
+    },
+    "status": "low",
+    "temperature": 19.8,
+    "humidity": 36,
+    "smoke": 0.02,
+    "UV": 5
+  },
+  {
+    "id": 33,
+    "name": "Sensor N1",
+    "location": "Nea Smyrni",
+    "coordinates": {
+      "latitude": 37.9409,
+      "longitude": 23.7144
+    },
+    "status": "normal",
+    "temperature": 22.1,
+    "humidity": 42,
+    "smoke": 0.01,
+    "UV": 6
+  },
+  {
+    "id": 34,
+    "name": "Sensor O1",
+    "location": "Exarchia",
+    "coordinates": {
+      "latitude": 37.9852,
+      "longitude": 23.7336
+    },
+    "status": "normal",
+    "temperature": 23.5,
+    "humidity": 44,
+    "smoke": 0.02,
+    "UV": 7
+  },
+  {
+    "id": 35,
+    "name": "Sensor P1",
+    "location": "Vouliagmeni",
+    "coordinates": {
+      "latitude": 37.8296,
+      "longitude": 23.7768
+    },
+    "status": "low",
+    "temperature": 20.5,
+    "humidity": 30,
+    "smoke": 0.03,
+    "UV": 4
+  }
 ]

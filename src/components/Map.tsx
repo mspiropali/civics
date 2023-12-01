@@ -1,8 +1,6 @@
 import { MapContainer, Marker, Popup, TileLayer, useMapEvent } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import { LatLngTuple } from 'leaflet'
-
-const position:LatLngTuple = [37.9838, 23.7275, 0] // Athens position
+import { MapProps } from '@/interfaces/props'
 
 // animate panning
 function SetViewOnClick() {
@@ -17,8 +15,8 @@ function SetViewOnClick() {
 
 
 // h-[calc(100vh-48px)] w-[calc(100vw-320px)] 
-const Map = () => {
-  
+const Map = ({position}: MapProps) => {
+  console.log(position)
     return (
         <div className="relative z-0 h-screen w-screen
         flex flex-row justify-center items-center bottom-0 right-0
@@ -30,7 +28,7 @@ const Map = () => {
                     // url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png"
                 />
                 <Marker position={position}>
-                    <Popup>This is the City Centre!</Popup>
+                    <Popup>This is a position marker!</Popup>
                 </Marker>
 
                 <SetViewOnClick />

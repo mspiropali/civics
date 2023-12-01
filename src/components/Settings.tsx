@@ -1,25 +1,34 @@
-import { Dialog, Transition } from '@headlessui/react'
 import { useState, Fragment } from 'react';
 import { HiCog } from "react-icons/hi2";
-
+import {
+    Dialog,
+    DialogContent,
+    DialogDescription,
+    DialogHeader,
+    DialogTitle,
+    DialogTrigger,
+} from "./ui/dialog"
 
 interface Props {
     handleThemeSwitch: () => void
 }
 const Settings = ({ handleThemeSwitch }: Props) => {
-    const [isOpen, setIsOpen] = useState(false)
 
-    function closeModal() {
-        setIsOpen(false)
-    }
-
-    function openModal() {
-        setIsOpen(true)
-    }
 
     return (
         <>
-            <div className="inset-0 flex items-center justify-center">
+            <Dialog>
+                <DialogTrigger>Open</DialogTrigger>
+                <DialogContent>
+                    <DialogHeader>
+                        <DialogTitle>Settings</DialogTitle>
+                    </DialogHeader>
+                    <div className='flex flex-row justify-center items-center'>
+                        
+                    </div>
+                </DialogContent>
+            </Dialog>
+            {/* <div className="inset-0 flex items-center justify-center">
                 <button
                     type="button"
                     onClick={openModal}
@@ -85,7 +94,7 @@ const Settings = ({ handleThemeSwitch }: Props) => {
                         </div>
                     </div>
                 </Dialog>
-            </Transition>
+            </Transition> */}
         </>
     )
 }

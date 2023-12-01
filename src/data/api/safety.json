@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "name": "Evacuation Center Alpha",
+      "location": "Syntagma Square",
+      "coordinates": {
+        "latitude": 37.9753,
+        "longitude": 23.7348
+      }
+    },
+    {
+      "id": 2,
+      "name": "Emergency Shelter Beta",
+      "location": "Evangelismos Hospital",
+      "coordinates": {
+        "latitude": 37.9785,
+        "longitude": 23.7466
+      }
+    },
+    {
+      "id": 3,
+      "name": "Safety Point Gamma",
+      "location": "Kifisia",
+      "coordinates": {
+        "latitude": 38.071,
+        "longitude": 23.8254
+      }
+    },
+    {
+      "id": 4,
+      "name": "Evacuation Center Delta",
+      "location": "Glyfada",
+      "coordinates": {
+        "latitude": 37.8699,
+        "longitude": 23.7523
+      }
+    },
+    {
+      "id": 5,
+      "name": "Emergency Hub Epsilon",
+      "location": "Peristeri",
+      "coordinates": {
+        "latitude": 38.0142,
+        "longitude": 23.6956
+      }
+    },
+    {
+      "id": 6,
+      "name": "Safety Zone Zeta",
+      "location": "Marousi",
+      "coordinates": {
+        "latitude": 38.0509,
+        "longitude": 23.8058
+      }
+    },
+    {
+      "id": 7,
+      "name": "Emergency Shelter Eta",
+      "location": "Omonia Square",
+      "coordinates": {
+        "latitude": 37.9838,
+        "longitude": 23.7296
+      }
+    },
+    {
+      "id": 8,
+      "name": "Safety Point Theta",
+      "location": "Nea Smyrni",
+      "coordinates": {
+        "latitude": 37.9409,
+        "longitude": 23.7144
+      }
+    },
+    {
+      "id": 9,
+      "name": "Evacuation Center Iota",
+      "location": "Exarchia",
+      "coordinates": {
+        "latitude": 37.9852,
+        "longitude": 23.7336
+      }
+    },
+    {
+      "id": 10,
+      "name": "Emergency Hub Kappa",
+      "location": "Vouliagmeni",
+      "coordinates": {
+        "latitude": 37.8296,
+        "longitude": 23.7768
+      }
+    }
+  ]
+  

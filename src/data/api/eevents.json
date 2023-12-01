@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Event 1",
+    "type": "Fire",
+    "location": "Glyfada",
+    "coordinates": { "latitude": 37.8699, "longitude": 23.7523 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [4, 7, 10],
+    "fleets": [3, 4]
+  },
+  {
+    "id": 2,
+    "name": "Event 2",
+    "type": "Medical",
+    "location": "Peristeri",
+    "coordinates": { "latitude": 38.0142, "longitude": 23.6956 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [5, 8, 11],
+    "fleets": [5]
+  },
+  {
+    "id": 3,
+    "name": "Event 3",
+    "type": "Fire",
+    "location": "Kifisia",
+    "coordinates": { "latitude": 38.071, "longitude": 23.8254 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [6, 9, 12],
+    "fleets": [6, 7]
+  },
+  {
+    "id": 4,
+    "name": "Event 4",
+    "type": "Medical",
+    "location": "Omonia Square",
+    "coordinates": { "latitude": 37.9838, "longitude": 23.7296 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [7, 10, 13],
+    "fleets": [2, 3]
+  },
+  {
+    "id": 5,
+    "name": "Event 5",
+    "type": "Fire",
+    "location": "Nea Smyrni",
+    "coordinates": { "latitude": 37.9409, "longitude": 23.7144 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [8, 11, 14],
+    "fleets": [1, 7]
+  },
+  {
+    "id": 6,
+    "name": "Event 6",
+    "type": "Medical",
+    "location": "Zografou",
+    "coordinates": { "latitude": 37.9734, "longitude": 23.7725 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [9, 12, 15],
+    "fleets": [1]
+  },
+  {
+    "id": 7,
+    "name": "Event 7",
+    "type": "Fire",
+    "location": "Kolonaki",
+    "coordinates": { "latitude": 37.9764, "longitude": 23.7432 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [10, 13, 16],
+    "fleets": [2, 3]
+  },
+  {
+    "id": 8,
+    "name": "Event 8",
+    "type": "Medical",
+    "location": "Kifissia",
+    "coordinates": { "latitude": 38.0722, "longitude": 23.8183 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [11, 14, 17],
+    "fleets": [4]
+  },
+  {
+    "id": 9,
+    "name": "Event 9",
+    "type": "Fire",
+    "location": "Vari",
+    "coordinates": { "latitude": 37.8324, "longitude": 23.7788 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [12, 15, 18],
+    "fleets": [5, 6]
+  },
+  {
+    "id": 10,
+    "name": "Event 10",
+    "type": "Medical",
+    "location": "Palaio Faliro",
+    "coordinates": { "latitude": 37.9296, "longitude": 23.7143 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [13, 16, 19],
+    "fleets": [7]
+  },
+  {
+    "id": 11,
+    "name": "Event 11",
+    "type": "Fire",
+    "location": "Ilion",
+    "coordinates": { "latitude": 38.0186, "longitude": 23.6995 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [14, 17, 20],
+    "fleets": [1, 2, 3]
+  },
+  {
+    "id": 12,
+    "name": "Event 12",
+    "type": "Medical",
+    "location": "Piraeus Port",
+    "coordinates": { "latitude": 37.9475, "longitude": 23.6471 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [15, 18, 21],
+    "fleets": [4]
+  },
+  {
+    "id": 13,
+    "name": "Event 13",
+    "type": "Fire",
+    "location": "Aspropyrgos Industrial Zone",
+    "coordinates": { "latitude": 38.0687, "longitude": 23.5452 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [16, 19, 22],
+    "fleets": [5, 6, 7]
+  },
+  {
+    "id": 14,
+    "name": "Event 14",
+    "type": "Medical",
+    "location": "Kallithea",
+    "coordinates": { "latitude": 37.9496, "longitude": 23.6972 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [17, 20, 23],
+    "fleets": [1]
+  },
+  {
+    "id": 15,
+    "name": "Event 15",
+    "type": "Fire",
+    "location": "Agia Paraskevi",
+    "coordinates": { "latitude": 38.0101, "longitude": 23.8222 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [18, 21, 24],
+    "fleets": [2, 3, 4]
+  },
+  {
+    "id": 16,
+    "name": "Event 16",
+    "type": "Medical",
+    "location": "Zografou",
+    "coordinates": { "latitude": 37.9734, "longitude": 23.7725 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [19, 22, 25],
+    "fleets": [5]
+  },
+  {
+    "id": 17,
+    "name": "Event 17",
+    "type": "Fire",
+    "location": "Kolonaki",
+    "coordinates": { "latitude": 37.9764, "longitude": 23.7432 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [20, 23, 26],
+    "fleets": [6, 7, 1]
+  },
+  {
+    "id": 18,
+    "name": "Event 18",
+    "type": "Medical",
+    "location": "Kifissia",
+    "coordinates": { "latitude": 38.0722, "longitude": 23.8183 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [21, 24, 27],
+    "fleets": [2]
+  },
+  {
+    "id": 19,
+    "name": "Event 19",
+    "type": "Fire",
+    "location": "Vari",
+    "coordinates": { "latitude": 37.8324, "longitude": 23.7788 },
+    "severity": "high",
+    "recommendations": ["ambulance", "firetruck", "police"],
+    "sensors": [22, 25, 28],
+    "fleets": [3, 4, 5]
+  },
+  {
+    "id": 20,
+    "name": "Event 20",
+    "type": "Medical",
+    "location": "Palaio Faliro",
+    "coordinates": { "latitude": 37.9296, "longitude": 23.7143 },
+    "severity": "normal",
+    "recommendations": ["ambulance"],
+    "sensors": [23, 26, 29],
+    "fleets": [6]
+  }
+]
