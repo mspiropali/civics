@@ -65,11 +65,11 @@ const Actions = ({ updateDetailProps }: DetailProps, { updatePosition }: MapProp
                     </tr>)
 
                 table = eevents.map((event) => (
-                    <tr key={event.id} className="border-b-2 border-slate-300 hover:border-slate-500" onClick={() => { updateDetailProps?.({ type: selected, id: event.id }) }}>
-                        <td className="text-sm">{event.name}</td>
-                        <td className="text-sm">{event.location}</td>
-                        <td className="text-sm">{event.severity}</td>
-                        <td className="text-sm">{event.id}</td>
+                    <tr key={event.id} className="border-b-2 border-slate-300 hover:border-slate-500 w-fit" onClick={() => { updateDetailProps?.({ type: selected, id: event.id }) }}>
+                        <td className="text-[12px] w-fit">{event.name}</td>
+                        <td className="text-[12px] w-fit">{event.location}</td>
+                        <td className="text-[12px] w-fit">{event.severity}</td>
+                        <td className="text-[12px] w-fit">{event.id}</td>
                     </tr >))
 
                 break;
@@ -128,7 +128,7 @@ const Actions = ({ updateDetailProps }: DetailProps, { updatePosition }: MapProp
         }
 
         return (
-            <table className="table-auto text-left w-64">
+            <table className="table-auto text-left w-fit">
                 <thead className="sticky top-0 bg-blue-700">
                     {headers}
                 </thead>
@@ -162,7 +162,7 @@ const Actions = ({ updateDetailProps }: DetailProps, { updatePosition }: MapProp
                     onClick={() => SetSelected(ActionType.SAFETY_POINTS)}>
                     Safety Points
                 </button>
-                <button className="grid flex-2 h-8 w-32 rounded-md overflow-hidden items-center justify-center text-md
+                <button className="grid text-[15px] flex-2 h-8 w-32 rounded-md overflow-hidden items-center justify-center text-md
             bg-white dark:bg-blue-950 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20"
                     onClick={() => SetSelected(ActionType.EVACUATION_PLAN)}>
                     Evacuation Plan

@@ -24,8 +24,8 @@ const Map = ({position}: MapProps) => {
             <MapContainer center={position} zoom={13}  maxZoom={17} minZoom={5} scrollWheelZoom={false} style={{ height: '100%', width: '100%' }}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    // url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager/{z}/{x}/{y}.png"
+                    // url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    url="https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png"
                 />
                 <Marker position={position}>
                     <Popup>This is a position marker!</Popup>

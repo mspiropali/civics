@@ -7,6 +7,7 @@ import { ActionType } from "@/enums/actionTypes"
 
 
 const Sidebar = (mapProps: MapProps) => {
+    
     const updateDetailProps = (detailProps: DetailProps) => {
         detailProps.updateDetailProps = updateDetailProps;
         setDetailProps(detailProps)
