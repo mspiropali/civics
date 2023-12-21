@@ -19,5 +19,5 @@ class Sensor(Base):
     smoke = Column(Integer)
     uv = Column(Integer)
 
-    emergency_event_id = Column(Integer, ForeignKey("emergency_events.id"))
-    owner = relationship("EmergencyEvent", back_populates="sensors")
+    # emergency_event_id = Column(Integer, ForeignKey("emergency_events.id"))
+    # owner = relationship("EmergencyEvent", back_populates="sensors")

@@ -12,5 +12,4 @@ class EmergencyEvent(Base):
     coordinates = Column(String, index=True)
     severity = Column(Enum("Low", "Normal", "High", name="severity_enum", create_type=False), index=True)
 
-    sensors = relationship("Sensor", back_populates="owner")
-    
+    # sensors = relationship("Sensor", back_populates="owner")
