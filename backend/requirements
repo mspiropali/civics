@@ -1,7 +1,8 @@
 sqlalchemy
 fastapi
-"uvicorn[standard]"
+uvicorn
 psycopg2
 websocket
 aiopg
 asyncio
+asyncpg

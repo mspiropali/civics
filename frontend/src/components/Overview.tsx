@@ -1,8 +1,20 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 // probably get from API call and maybe update via useEffect
 const Overview = () => {
-    const [stats, setStats] = useState({ sensors: "10", eevents: "5" })
+    const [stats, setStats] = useState({ sensors: "10", eevents: "0" })
+
+    
+
+    useEffect(() => {
+        const socket = new WebSocket("ws://localhost:8000/emergency_events")
+        socket.addEventListener("message", (event) => {
+            let data = JSON.parse(event.data)
+            console.log("Message from server ", data)
+            setStats({...stats, eevents:data.msg})
+        })
+        
+    }, [stats])
 
 
     return (
